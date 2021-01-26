@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EXERCICE 3</title>
+        <meta content="text/html;charset=utf-8"/>
+        <link type="text/css" rel="stylesheet" href="exercice3.css" />
+
+    </head>
+    <body>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label class="label-text" for="pseudo">Votre pseudo :</label>
+                    </td>
+                    <td>
+                        <input type="text" id="pseudo"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="label-text" for="mdp">Votre mot de passe :</label>
+                    </td>
+                    <td>
+                        <input type="password" id="mdp"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="label-text" for="remdp">Ressaisir votre mot de passe :</label>
+                    </td>
+                    <td>
+                        <input type="password" id="remdp"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-top">
+                        <label class="label-text" for="os">OS préféré :</label>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <input type="radio" id="1" value="xp">
+                                <label for="1">Windows XP</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="2" value="vista">
+                                <label for="2">Windows Vista</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="3" value="macos">
+                                <label for="3">MacOS X</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="4" value="linux">
+                                <label for="4">Linux</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="5" value="autre">
+                                <label for="5">Autre</label>
+                            </li>
+                        </ul>  
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-top">
+                        <label class="label-text" for="possession">Vous possédez :</label>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="1" value="ordibureau">
+                                <label for="1">Un ordinateur de bureau</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="2" value="portable">
+                                <label for="2">Un portable</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="3" value="netbook">
+                                <label for="3">Un netbook</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="4" value="tablette">
+                                <label for="4">Une tablette (Pad)</label>
+                            </li>
+                        </ul>  
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-top">
+                        <label class="label-text" for="profession">Votre profession :</label>
+                    </td>
+                    <td>
+                        <select name="select_box" size="5">
+                            <option>Chômeur</option>
+                            <option>Etudiant</option>
+                            <option>Fonctionnaire</option>
+                            <option>Privé</option>
+                            <option>Retraité</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <br>
+                        <button type="submit">S'inscrire</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
