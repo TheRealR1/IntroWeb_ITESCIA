@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EXERCICE 2</title>
+        <meta content="text/html;charset=utf-8"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+    </head>
+    <body>
+        <h3 style="text-align: center;">Moteur de recherche</h3>
+        <br>
+        <form action="#">
+            <table>
+                <tr>
+                    <td>
+                        <label class="label-text" for="motclef">Mots clefs</label>
+                    </td>
+                    <td>
+                        <input type="text" id="motclef" name="motclef" class="form-control"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="label-text" for="categorie">Catégorie</label>
+                    </td>
+                    <td>
+                        <select name="categorie" size="3">
+                            <option>Jouet</option>
+                            <option>Location</option>
+                            <option>Voitures</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="label-text" for="dept">Département</label>
+                    </td>
+                    <td>
+                        <select name="dept">
+                            <option>Bretagne</option>
+                            <option>Paris</option>
+                            <option>Marseille</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="submit" class="btn btn-success btn-lg">Chercher</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
